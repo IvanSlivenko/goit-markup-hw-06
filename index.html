@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Підключаємо шрифти -->
+
+    <!--  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--  -->
+    <title>Web Studio</title>
+
+    <!-- Спочатку нормалізатор -->
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+/>
+
+    <!-- Підключаємо файл зі стилями -->
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="heder-container container">
+            <a href="./index.html" class="nav-logo-left"
+              >Web<span class="nav-logo-reit">Studio</span></a
+            >
+          <nav class="nav-boxstudio" >
+          
+          
+            <ul class="list-type flex-container">
+              <li class="list-type-item  flex-container">
+                <a href="" class="nav-list current nav-list-acktual ">Студія</a>
+              </li>
+              <li class="list-type-item flex-container">
+                <a href="./galery.html " class="nav-list">Портфоліо</a>
+              </li>
+              <li class="list-type-item flex-container">
+                <a href="" class="nav-list">Контакти</a>
+              </li>
+            </ul>
+          
+        </nav>
+        
+          <ul class="list-type flex-container addres-boxstudio" >
+            <li class="flex-container mailto-boxsutdio">
+              <a href="mailto:info@devstudio.com" class="mailto">
+                <svg class="icon-size-adresstudio">
+                  <use href="./img/sprait9.svg#envelope" class="icon-contacts-envelope"></use>
+                  
+                </svg>
+                info@devstudio.com</a
+              >
+            </li>
+            <li class="flex-container tel-boxstudio">
+              <a href="tel:+380961111111" class="tel">
+                <svg class="icon-size-adresstudio-two">
+                  <use href="./img/sprait9.svg#smartphone" class="icon-contacts-smartphone"></use>
+                  
+                </svg>
+                +38 096 111 11 11</a>
+            </li>
+          </ul>
+        
+      </div>
+    </header>
+
+    <main>
+
+      <div data-modal class="Backdrop is-hidden">
+        <div class="modal">
+            <div class="button-modal-box">
+              <button data-modal-close class="button-modal">
+                <img src="./img/clouse-modal-2.svg" class="button-modal-img" 
+                alt="clouse">
+              </button>
+          </div>
+        </div>
+      </div>
+      <!-- Hero section -->
+    
+        <section class="Hero Hero-img">
+          <div class="container hero-box">
+
+            
+          <h1 class="hero-title"> Ефективні рішення для вашого бізнесу</h1>
+          <button data-modal-open type="button" class="hero-button" >Замовити послугу</button>
+        </div>
+        </section>
+
+     
+
+      <!-- Section benefits -->
+     
+        <section class="benefits">
+          <div class="container">
+          <h2 hidden>Наші особливості</h2>
+          <ul class="list-type-benefits">
+            <li class="benefits-list-item">
+              <div class="benefits-boxfon-antena">
+                <svg class="icon-size">
+                  <use href="./img/sprait9.svg#antennasvg" class="icon-benefits"></use>
+                  
+                </svg> 
+              </div>
+              <h3 class="title-benefits">УВАГА ДО ДЕТАЛЕЙ</h3>
+              <p class="benefits-paragraf">
+                Ідейні міркування, і навіть початок повсякденної роботи з
+                формування позиції.
+              </p>
+            </li>
+
+            <li class="benefits-list-item">
+              <div class="benefits-boxfon-clock">
+                <svg class="icon-size">
+                  <use href="./img/sprait9.svg#clocksvg" class="icon-instagram"></use>
+                  
+                </svg>
+              </div>
+              <h3 class="title-benefits">ПУНКТУАЛЬНІСТЬ</h3>
+              <p class="benefits-paragraf">
+                Завдання організації, особливо рамки і місце навчання кадрів
+                тягне у себе.
+              </p>
+            </li>
+
+            <li class="benefits-list-item">
+              <div class="benefits-boxfon-diagram">
+                <svg class="icon-size">
+                  <use href="./img/sprait9.svg#diagramsvg" class="icon-instagram"></use>
+                  
+                </svg>
+              </div>
+              <h3 class="title-benefits">ПЛАНУВАННЯ</h3>
+              <p class="benefits-paragraf">
+                Так само консультація з широким активом значною мірою зумовлює.
+              </p>
+            </li>
+
+            <li class="benefits-list-item">
+              <div class="benefits-boxfon-astronaut">
+                <svg class="icon-size">
+                  <use href="./img/sprait9.svg#astronaut-1" class="icon-instagram"></use>
+                  
+                </svg>
+              </div>
+              <h3 class="title-benefits">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+              <p class="benefits-paragraf">
+                Значимість цих проблем настільки очевидна, що реалізація
+                планових завдань.
+              </p>
+            </li>
+          </ul>
+        </div>
+        </section>
+      
+
+      <!-- sections directions -->
+      
+        <section class="directions">
+          <div class="container">
+          <h2 class="directions-title">Чим ми займаємося</h2>
+          <!-- <ul class="list-type-directions directions-list-items"> -->
+            
+          <ul class="list-type-directions">
+            <li class="directions-items">
+              <img
+                src="./img/box-1.jpg"
+                alt="Фото напрямку-1"
+                width="370"
+                height="294"
+              />
+              <div class="directions-title-box" >
+                <p class="directions-title-two" >десктопні дотатки</p>
+              </div>
+            </li>
+            <li class="directions-items">
+              <img
+                src="./img/box-2.jpg"
+                alt="Фото напрямку-2"
+                width="370"
+                height="294"
+              />
+              <div class="directions-title-box" >
+                <p class="directions-title-two" >мобільні дотатки</p>
+              </div>
+            </li>
+            <li class="directions-items">
+              <img
+                src="./img/box-3.jpg"
+                alt="Фото напрямку-3"
+                width="370"
+                height="294"
+              />
+              <div class="directions-title-box" >
+                <p class="directions-title-two" >дизайнерські рішення</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        </section>
+      
+
+      <!--sections our teams -->
+      
+        <section class="our-teams">
+          
+          <div class="container">
+          <h2 class="our-teams-title">Наша команда</h2>
+          <!-- <ul class="list-type list-type-our-teams"> -->
+          <ul class="list-type-our-teams">
+            <li class="our-teams-iist">
+              <img
+                src="./img/product-designer.jpg"
+                alt="Ігор Дем'яненко"
+                width="270"
+                height="260"
+              />
+              <div class="our-teams-rersonposition">
+              <h3 class="our-teams-person">Ігор Дем'яненко</h3>
+              <p class="our-teams-position">Product Designer</p>
+              <ul class="icon-list">
+                <li class="our-teams-iisticon">
+                  <a href="" class="link-icon">
+                  <svg class="icon-size-cocialiteam">
+                    <use xlink:href="./img/sprait9.svg#instagram-2-2" class="icon-cocial"></use>
+                    
+                  </svg>
+
+                </a></li>
+                <li class="our-teams-iisticon">
+                  <a href="" class="link-icon">
+                  <svg class="icon-size-cocialiteam">
+                    <use href="./img/sprait9.svg#twitter-1-1" class="icon-cocial"></use>
+                    
+                  </svg>
+
+                </a></li>
+                <li class="our-teams-iisticon">
+                  <a href="" class="link-icon">
+                  <svg class="icon-size-cocialiteam">
+                    <use href="./img/sprait9.svg#facebook1-2" class="icon-cocial"></use>
+                    
+                  </svg>
+
+                </a></li>
+
+                <li class="our-teams-iisticon">
+                  <a href="" class="link-icon">
+                  <svg class="icon-size-cocialiteam">
+                    <use href="./img/sprait9.svg#linkedin1-2" class="icon-cocial"></use>
+                    
+                  </svg>
+
+                </a></li>
+              </ul>
+              </div>
+            </li>
+
+            <li class="our-teams-iist">
+              <img
+                src="./img/frontend-develooper.jpg"
+                alt="Ольга Рєпіна"
+                width="270"
+                height="260"
+              />
+              <div class="our-teams-rersonposition">
+              <h3 class="our-teams-person">Ольга Рєпіна</h3>
+              <p class="our-teams-position">Frontend Developer</p>
+              <ul class="icon-list">
+                <li class="our-teams-iisticon"><a href="" class="link-icon">
+                  <svg class="icon-size-cocialiteam">
+                    <use xlink:href="./img/sprait9.svg#instagram-2-2" class="icon-cocial"></use>
+                    
+                  </svg>
+
+                </a></li>
+                <li class="our-teams-iisticon"><a href="" class="link-icon">
+                  <svg class="icon-size-cocialiteam">
+                    <use href="./img/sprait9.svg#twitter-1-1" class="icon-cocial"></use>
+                    
+                  </svg>
+
+                </a></li>
+                <li class="our-teams-iisticon"><a href="" class="link-icon">
+                  <svg class="icon-size-cocialiteam">
+                    <use href="./img/sprait9.svg#facebook1-2" class="icon-cocial"></use>
+                    
+                  </svg>
+
+                </a></li>
+
+                <li class="our-teams-iisticon"><a href="" class="link-icon">
+                  <svg class="icon-size-cocialiteam">
+                    <use href="./img/sprait9.svg#linkedin1-2" class="icon-cocial"></use>
+                    
+                  </svg>
+
+                </a></li>
+              </ul>
+            </div>
+            </li>
+
+            <li class="our-teams-iist">
+              <img
+                src="./img/market.jpg"
+                alt=">Микола Тарасов"
+                width="270"
+                height="260"
+              />
+              <div class="our-teams-rersonposition">
+              <h3 class="our-teams-person">Микола Тарасов</h3>
+              <p class="our-teams-position">Marketing</p>
+              <ul class="icon-list">
+                <li class="our-teams-iisticon"><a href="" class="link-icon">
+                  <svg class="icon-size-cocialiteam">
+                    <use xlink:href="./img/sprait9.svg#instagram-2-2" class="icon-cocial"></use>
+                    
+                  </svg>
+
+                </a></li>
+                <li class="our-teams-iisticon"><a href="" class="link-icon">
+                  <svg class="icon-size-cocialiteam">
+                    <use href="./img/sprait9.svg#twitter-1-1" class="icon-cocial"></use>
+                    
+                  </svg>
+
+                </a></li>
+                <li class="our-teams-iisticon"><a href="" class="link-icon">
+                  <svg class="icon-size-cocialiteam">
+                    <use href="./img/sprait9.svg#facebook1-2" class="icon-cocial"></use>
+                    
+                  </svg>
+
+                </a></li>
+
+                <li class="our-teams-iisticon"><a href="" class="link-icon">
+                  <svg class="icon-size-cocialiteam">
+                    <use href="./img/sprait9.svg#linkedin1-2" class="icon-cocial"></use>
+                    
+                  </svg>
+
+                </a></li>
+              </ul>
+            </div>
+            </li>
+
+            <li class="our-teams-iist">
+              <img
+                src="./img/ul-designer.jpg"
+                alt="Михайло Єрмаков"
+                width="270"
+                height="260"
+              /><div class="our-teams-rersonposition">
+              <h3 class="our-teams-person">Михайло Єрмаков</h3>
+              <p class="our-teams-position">UI Designer</p>
+              <ul class="icon-list">
+                <li class="our-teams-iisticon">
+                  <a href="" class="link-icon">
+                  <svg class="icon-size-cocialiteam">
+                    <use xlink:href="./img/sprait9.svg#instagram-2-2" class="icon-cocial"></use>
+                    
+                  </svg>
+
+                </a></li>
+                <li class="our-teams-iisticon">
+                  <a href="" class="link-icon">
+                  <svg class="icon-size-cocialiteam">
+                    <use href="./img/sprait9.svg#twitter-1-1" class="icon-cocial"></use>
+                    
+                  </svg>
+
+                </a></li>
+                <li class="our-teams-iisticon">
+                  <a href="" class="link-icon">
+                  <svg class="icon-size-cocialiteam">
+                    <use href="./img/sprait9.svg#facebook1-2" class="icon-cocial"></use>
+                    
+                  </svg>
+
+                </a></li>
+
+                <li class="our-teams-iisticon">
+                  <a href="" class="link-icon">
+                  <svg class="icon-size-cocialiteam">
+                    <use href="./img/sprait9.svg#linkedin1-2" class="icon-cocial"></use>
+                    
+                  </svg>
+
+                </a></li>
+              </ul>
+            </div>
+            </li>
+          </ul>
+        </div>
+
+
+
+        </section>
+
+        <section class="section-client-box">
+          <div class="container client-box">
+            <h3 class="title-client">Постійні клієнти</h3>
+            <ul class="list-client">
+              <li class="list-item-client">
+                <a href="" class="logo-box"> 
+                  <svg class="client-box-cvg">
+                    <use href="./img/sprait9.svg#Logo1">
+          
+                    </use>
+                  </svg>
+                  </a>
+              </li>
+              <li class="list-item-client">
+                <a href=""class="logo-box">
+                  <svg class="client-box-cvg">
+                    <use href="./img/sprait9.svg#Logo2">
+          
+                    </use>
+                  </svg>
+                </a>
+              </li>
+              <li class="list-item-client">
+                <a href=""class="logo-box">
+                  <svg class="client-box-cvg">
+                    <use href="./img/sprait9.svg#Logo3">
+          
+                    </use>
+                  </svg>
+                </a>
+              </li>
+              <li class="list-item-client">
+                <a href=""class="logo-box">
+                  <svg class="client-box-cvg">
+                    <use href="./img/sprait9.svg#Logo4">
+          
+                    </use>
+                  </svg>
+                </a>
+              </li>
+              <li class="list-item-client">
+                <a href=""class="logo-box">
+                  <svg class="client-box-cvg">
+                    <use href="./img/sprait9.svg#Logo5">
+          
+                    </use>
+                  </svg>
+                </a>
+              </li>
+              <li class="list-item-client">
+                <a href=""class="logo-box">
+                  <svg class="client-box-cvg">
+                    <use href="./img/sprait9.svg#Logo6">
+          
+                    </use>
+                  </svg>
+                </a>
+              </li>
+
+
+            </ul>
+          
+          </div>
+        </div>
+        
+        </section>
+      
+    </main>
+
+    <footer class="footer">
+      <!-- <div class="gpoup-footer container"> -->
+      <div class="container flex-container flex-container-footerstudio">
+        <div class=" logo-info-futerstudio" >
+        <a href="./index.html" class="nav-logo-footerleft"
+          >Web<span class="nav-logo-reitfooter">Studio</span></a
+        >
+        <address class="adres-footer-studio">
+         
+          <!-- <ul class="list-type list-type-footer"> -->
+            <ul class="list-footerStudio">
+            <li class="list-item-footer">
+              <a
+                href="https://goo.gl/maps/WQxxdUkWUCcxHzvu8"
+                target="_blank"
+                rel="noopener norefferer nofollow"
+                class="footer-item-one"
+                >м. Київ, пр-т Лесі Українки, 26</a
+              >
+            </li>
+
+            <li class="footer-item-two  list-item-footer" >
+              <a href="mailto:info@devstudio.com" class="footer-item-two"
+                >info@devstudio.com</a
+              >
+            </li>
+
+            <li class="footer-item-two  list-item-footer" >
+              <a href="tel:+380961111111" class="footer-item-two footer-item-twostodio">
+                +38 096 111 11 11</a
+              >
+            </li>
+          </ul> 
+        </address>
+      </div> 
+          <div class="footer-iconstudio">
+            <!-- <h3 class="footer-iconstudio-title">Приеднуйтесь</h3> -->
+            <p class="footer-iconstudio-title">Приєднуйтесь</p>
+              <ul class="footerlist-iconstudio">
+              <li class="footerlistitem-iconstudio">
+                <a href=""class="Link-cocial-footerstudio">
+                  <svg class="icon-cocial-footerstudio">
+                  <use href="./img/sprait9.svg#instagram-2-2">
+        
+                  </use>
+                </svg>
+              </a></li>
+              <li class="footerlistitem-iconstudio">
+                <a href=""class="Link-cocial-footerstudio">
+                <svg class="icon-cocial-footerstudio">
+                  <use href="./img/sprait9.svg#twitter-1-1">
+        
+                  </use>
+                </svg>
+              </a></li>
+              <li class="footerlistitem-iconstudio">
+                <a href=""class="Link-cocial-footerstudio">
+                <svg class="icon-cocial-footerstudio">
+                  <use href="./img/sprait9.svg#facebook1-2">
+        
+                  </use>
+                </svg>
+              </a></li>
+              <li class="footerlistitem-iconstudio">
+                <a href="" class="Link-cocial-footerstudio">
+                <svg class="icon-cocial-footerstudio">
+                  <use href="./img/sprait9.svg#linkedin1-2">
+        
+                  </use>
+                </svg>
+              </a></li>
+            </ul>
+          </div>  
+        
+      </div>
+    </footer>
+
+    <!-- Ставимо перед закриваючим тегом body -->
+    <script src="./js/modal.js"></script>
+
+  </body>
+</html>

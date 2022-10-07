@@ -1841,7 +1841,9 @@ margin-right: auto;
    .input-name:focus{
     border: 2px solid #2196F3;
     border-radius: 4px;
+
    }
+   
 
    .input-name-title{
     
@@ -1862,6 +1864,24 @@ margin-right: auto;
    }
    .input-name-icon{
 
+    width: 20px;
+    height: 20px;
+   
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(50%);
+
+    background-image: url(../img/Vector-syluet-black.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 15px;
+    
+    }
+
+   .input-name-box:focus +.input-name-icon{
+
+    fill: #2196f3;    
    }
 /* /////////////////////////////////////////// */
 

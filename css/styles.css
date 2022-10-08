@@ -1906,7 +1906,8 @@ margin-right: auto;
     left: 0;
     transform: translateY(50%);
 
-    background-image: url(../img/Vector-syluet-black.svg);
+    /* background-image: url(../img/Vector-syluet-black.svg); */
+    
     background-size: contain;
     background-repeat: no-repeat;
     margin-left: 15px;

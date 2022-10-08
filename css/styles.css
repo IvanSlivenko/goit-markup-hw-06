@@ -1902,7 +1902,7 @@ margin-right: auto;
    
    }
   
- .input-name-box:focus  .input-name-icon{
+ .input-name:focus  .input-name-icon{
 
   fill: #2196f3;    
  }
@@ -2019,7 +2019,7 @@ margin-right: auto;
  
  }
  
-.input-tel-box:focus  .input-tel-icon{
+.input-tel:focus  .input-tel-icon{
 fill: #2196f3;    
 
 }
@@ -2182,7 +2182,7 @@ border-radius: 4px;
   
   }
 
-.input-email-box:focus  .input-email-icon{
+.input-email:focus  .input-email-icon{
 fill: #2196f3;
 
 }

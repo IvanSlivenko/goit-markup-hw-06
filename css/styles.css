@@ -1878,7 +1878,12 @@ margin-right: auto;
    
    }
   
- .input-name-box:focus +.input-name-icon{
+ .input-name-box:focus  .input-name-icon{
+
+  fill: #2196f3;    
+ }
+
+ .input-name-box:hover  .input-name-icon{
 
   fill: #2196f3;    
  }
@@ -1922,21 +1927,11 @@ margin-right: auto;
        }
 
    .input-name-icon{
-    /* background-image: url(../img/Vector-syluet-black.svg); */
-
+    
     width: 18px;
     height: 18px;
    
-    /* position: absolute;
-    top: 0;
-    left: 0;
-    transform: translateY(50%);
-
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-left: 15px; */
-    
-    }
+        }
 
     
 /* ////////////////////////////////////////////// */

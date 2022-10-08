@@ -1902,8 +1902,8 @@ margin-right: auto;
 
    }
    .input-name-icon__size{
-    border: 1px solid red;
-    border-radius: 50%;
+    /* border: 1px solid red;
+    border-radius: 50%; */
 
     width: 18px;
     height: 18px;
@@ -1920,9 +1920,8 @@ margin-right: auto;
     
     width: 100%;
     height: 100%;
-    background-color: yellow;
-
-    border-radius: 50%;
+    /* background-color: yellow;
+    border-radius: 50%; */
 
        }
 
@@ -1996,13 +1995,14 @@ margin-right: auto;
  
  }
  
-.input-tel-box:focus +.input-tel-icon{
-
+.input-tel-box:focus  .input-tel-icon{
 fill: #2196f3;    
+
 }
+
 .input-tel-icon__size{
-  border: 1px solid red;
-  border-radius: 50%;
+  /* border: 1px solid red;
+  border-radius: 50%; */
 
   width: 18px;
   height: 18px;
@@ -2019,30 +2019,15 @@ fill: #2196f3;
   
   width: 100%;
   height: 100%;
-  background-color: yellow;
+  /* background-color: yellow;
+  border-radius: 50%; */
 
-  border-radius: 50%;
-
-     }
+  }
 .input-tel-icon{
     width: 18px;
     height: 18px;
    
-    /* position: absolute;
-    top: 0;
-    left: 0;
-    transform: translateY(50%);
-
-    background-image: url(../img/Vector-tel.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-left: 15px; */
-
 }
-.input-tel-box:focus +.input-tel-icon{
-
-  fill: #2196f3;    
- }
 
  .input-tel-title{
   position: absolute;
@@ -2095,8 +2080,8 @@ fill: #2196f3;
   color: #757575;
 }
 .input-email-icon__size{
-  border: 1px solid red;
-  border-radius: 50%;
+  /* border: 1px solid red;
+  border-radius: 50%; */
 
   width: 18px;
   height: 18px;
@@ -2113,25 +2098,14 @@ fill: #2196f3;
   
   width: 100%;
   height: 100%;
-  background-color: yellow;
-
-  border-radius: 50%;
+  /* background-color: yellow;
+  border-radius: 50%; */
  }
 
 .input-email-icon{
   width: 18px;
   height: 18px;
  
-  /* position: absolute;
-  top: 0;
-  left: 0;
-  transform: translateY(50%);
-
-  background-image: url(../img/Vector-email.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  margin-left: 15px; */
-
 }
 
 .input-email-box:hover,
@@ -2174,9 +2148,14 @@ border-radius: 4px;
 
 }
 
-.input-email-box:focus +.input-email-icon{
+.input-email-box:hover  .input-email-icon{
+  fill: #2196f3;
+  
+  }
 
-fill: #2196f3;    
+.input-email-box:focus  .input-email-icon{
+fill: #2196f3;
+
 }
 /* /////////////////////////////////////////////// */
 .input-coment-box{

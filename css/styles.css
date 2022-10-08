@@ -2000,6 +2000,11 @@ fill: #2196f3;
 
 }
 
+.input-tel-box:hover  .input-tel-icon{
+  fill: #2196f3;    
+  
+  }
+
 .input-tel-icon__size{
   /* border: 1px solid red;
   border-radius: 50%; */

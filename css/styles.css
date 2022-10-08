@@ -1898,8 +1898,8 @@ margin-right: auto;
    }
    .input-name-icon{
 
-    width: 20px;
-    height: 20px;
+    width: 18px;
+    height: 18px;
    
     position: absolute;
     top: 0;
@@ -1937,13 +1937,13 @@ margin-right: auto;
 
   .input-tel-box:hover,
   .input-tel-box:focus{
-  border: 2px solid #2196F3;
-  border-radius: 4px;
-  cursor: pointer;
+    border: 2px solid #2196F3;
+    border-radius: 4px;
+    cursor: pointer;
   }
 
 .input-tel:focus{
-  outline: transparent;
+    outline: transparent;
  
   }
 
@@ -1981,8 +1981,8 @@ margin-right: auto;
 fill: #2196f3;    
 }
 .input-tel-icon{
-  width: 20px;
-    height: 20px;
+    width: 18px;
+    height: 18px;
    
     position: absolute;
     top: 0;
@@ -2051,8 +2051,8 @@ fill: #2196f3;
   color: #757575;
 }
 .input-email-icon{
-  width: 20px;
-  height: 20px;
+  width: 18px;
+  height: 18px;
  
   position: absolute;
   top: 0;

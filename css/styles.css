@@ -1882,11 +1882,11 @@ margin-right: auto;
     
    }
      
-  .input-name:hover ~ .input-name-icon{
+  .input-name:hover   .input-name-icon{
     fill: #2196f3;    
  }
 
- .input-name:focus ~ .input-name-icon{
+ .input-name:focus   .input-name-icon{
   fill: #2196f3;    
 }
 
@@ -1979,13 +1979,13 @@ margin-right: auto;
   }
  
 
-  .input-tel:hover  ~ .input-tel-icon{
+  .input-tel:hover   .input-tel-icon{
   fill: #2196f3;  
     
   
   }
 
-  .input-tel:focus  ~ .input-tel-icon{
+  .input-tel:focus   .input-tel-icon{
     fill: #2196f3; 
    
   }
@@ -2107,12 +2107,12 @@ border-radius: 4px;
 
 }
 
-.input-email:hover ~ .input-email-icon{
+.input-email:hover  .input-email-icon{
   fill: #2196f3;
   
   }
 
-.input-email:focus ~ .input-email-icon{
+.input-email:focus   .input-email-icon{
 fill: #2196f3;
 
 }

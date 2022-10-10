@@ -2282,34 +2282,46 @@ border-radius: 4px;
   }
 /* ///////////////////////////////// */
 
-.form-footerstudio-regisration_position{
-    position: relative;
+.form-footerstudio-regisration__position{
+    
+    /* width: 358px; */
+    height: 100px;
+
+    display: flex;
+    align-items: center;
+    
+    /* background-color:yellowgreen; */
+
 }
 
 .form-footerstudio-regisration{
-  position: absolute;
   display: flex;
+  align-items: flex-end;
+  
+  /* background-color:green; */
   
 }
 .form-footerstudio-regisration__box{
-  position: relative; 
-
+  display: flex;
+  flex-direction: column;
+  
   margin-top: 20px;
   width: 358px;
-  height: 50px;
-  
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  border-radius: 4px;
+  height:auto;
 
+  /* border: 1px solid brown; */
+  
 }
 
 .form-footerstudio-regisration__inputemail{
-  width: 100%;
-  height: 100%;
+  width: 358px;
+  height:50px;
   outline: transparent;
   border: none;
   background: transparent;
   color: rgba(255, 255, 255, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
 
 }
 
@@ -2324,38 +2336,35 @@ border-radius: 4px;
   color: rgba(255, 255, 255, 0.6);
 }
 
-.form-footerstudio-regisration__Label{
-  
-  position: absolute;
-  top:50%;
-  left: 0;
-  transform: translateY(-350%);
 
+
+.form-footerstudio-regisration__Label{
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
   color: #FFFFFF;
 
+  padding-bottom: 15px;
 }
 
+.button_container{
+  /* background-color: #EEEEEE; */
+  display: flex;
+  align-items: center;
 
+}
 .form-footerstudio-regisration__Button{
-  position: absolute;
-  bottom: 0;
-  left: 100%;
-
+ 
+  display: flex;
+  align-items: center;
   margin-left: 12px;
 
   padding-left: 28px;
   padding-top: 10px;
-  padding-right: 62px;
+  /* padding-right: 42px; */
   padding-bottom: 10px;
-
- 
-  
 
   background: #2196F3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -2373,28 +2382,19 @@ border-radius: 4px;
 }
 
 .regisration-icon__size{
-
-  position: absolute;
-  top: 0;
-  left: 0;
-
-  top: 0; transform: translateX(2100%) 
-                     translateY(50%);
-
   /* border: 1px solid red; */
- 
 
   width: 24px;
   height: 24px;
+  margin-left: 10px;
+  margin-right: 15px;
 
  }
  .regisration-icon__box{
-  
   width: 100%;
   height: 100%;
-  /* background-color: yellow; */
- 
- }
+  
+   }
 
 .regisration-icon__icontelegram{
   width: 24px;

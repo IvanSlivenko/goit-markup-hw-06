@@ -1855,73 +1855,42 @@ margin-right: auto;
     height: 40px;
     position: relative;
     margin-bottom: 28px;
-    border: 2px solid rgba(33, 33, 33, 0.2);
-    border-radius: 4px;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-   }
-   .input-name-box:hover{
-    cursor: pointer;
-    border: 2px solid #2196F3;
-    border-radius: 4px;
-
-   }
-   .input-name-box:focus{
-    border: 2px solid #2196F3;
-    border-radius: 4px;
-
-   }
-   
-   .input-name{
-    width: 93%;
-    height: 100%;
-    padding: 12px 20px;
-    border: transparent;
-    margin-left: 30px;
     
    }
    
-   .input-name:focus{
-    outline: transparent;
-   
-    }
-
-    .input-name:hover{
-      outline: transparent;
-      cursor: pointer;
-      
-    }
-   
-   .input-name:focus .input-name-box{
-    /* border: 2px solid #2196F3; */
+    
+   .input-name{
+    width: 100%;
+    height: 100%;
+    padding: 12px 20px;
+    border: transparent;
+    padding-left: 40px;
+    border: 2px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
-   
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
    }
-   .input-name:placeholder-shown .input-name-box{
+   .input-name:hover{
     border: 2px solid #2196F3;
     border-radius: 4px;
-   
+    cursor: pointer;
    }
-  
- .input-name:focus  .input-name-icon__box{
-  border: 1px solid yellow;
-  fill: #2196f3;    
+   .input-name:focus{
+    outline: none;
+    border: 2px solid #2196F3;
+    border-radius: 4px;
+    
+   }
+     
+  .input-name:hover ~ .input-name-icon{
+    fill: #2196f3;    
  }
 
- .input-name-box:focus  .input-name-icon{
-  border: 1px solid tomato;
+ .input-name:focus ~ .input-name-icon{
   fill: #2196f3;    
- }
+}
 
- .input-name-icon__box:focus  .input-name-icon{
-  border: 1px solid green;
-  fill: #2196f3;    
- }
 
- .input-name-box:hover  .input-name-icon{
-
-  fill: #2196f3;    
- }
-   
     .input-name-title{
     position: absolute;
     top: 0;
@@ -1975,49 +1944,52 @@ margin-right: auto;
     height: 40px;
     position: relative;
     margin-bottom: 28px;
-    border: 2px solid rgba(33, 33, 33, 0.2);
-    border-radius: 4px;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
   }
   .input-tel{
  
-    width: 93%;
+    width: 100%;
     height: 100%;
     padding: 12px 20px;
     border: transparent;
-    margin-left: 30px;
-
+    /* margin-left: 30px; */
+    padding-left: 40px;
+    border: 2px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-  .input-tel-box:hover{
+  .input-tel:hover{
     border: 2px solid #2196F3;
     border-radius: 4px;
     cursor: pointer;
     
   }
-
-  .input-tel-box:focus{
+  .input-tel:focus{
+    outline: none;
     border: 2px solid #2196F3;
     border-radius: 4px;
-    cursor: pointer;
     
   }
-  
-.input-tel:focus{
-    outline: transparent;
+  .input-tel:focus-visible{
+    outline: none;
+    border: 2px solid #2196F3;
+    border-radius: 4px;
+    
+  }
  
+
+  .input-tel:hover  ~ .input-tel-icon{
+  fill: #2196f3;  
+    
+  
   }
 
-  .input-tel:focus   .input-tel-box{
-  border: 2px solid #2196F3;
-  border-radius: 4px;
-  
+  .input-tel:focus  ~ .input-tel-icon{
+    fill: #2196f3; 
+   
   }
- 
-.input-tel-box:hover  .input-tel-icon{
-  fill: #2196f3;    
-  
-  }
+
 
 .input-tel-icon__size{
  
@@ -2036,15 +2008,14 @@ margin-right: auto;
   
   width: 100%;
   height: 100%;
-  border: 1px solid green;
 
   }
+  
 .input-tel-icon{
     width: 18px;
     height: 18px;
     
-   
-}
+  }
 
  .input-tel-title{
   position: absolute;
@@ -2066,18 +2037,19 @@ margin-right: auto;
   height: 40px;
   position: relative;
   margin-bottom: 28px;
-  border: 2px solid rgba(33, 33, 33, 0.2);
-  border-radius: 4px;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 
 .input-email{
   
-    width: 93%;
+    width: 100%;
     height: 100%;
     padding: 12px 20px;
     border: transparent;
-    margin-left: 30px;
+    padding-left: 40px;
+    border: 2px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 .input-email-title{
@@ -2097,9 +2069,7 @@ margin-right: auto;
   color: #757575;
 }
 .input-email-icon__size{
-  /* border: 1px solid red;
-  border-radius: 50%; */
-
+ 
   width: 18px;
   height: 18px;
 
@@ -2115,8 +2085,7 @@ margin-right: auto;
   
   width: 100%;
   height: 100%;
-  /* background-color: yellow;
-  border-radius: 50%; */
+  
  }
 
 .input-email-icon{
@@ -2125,52 +2094,25 @@ margin-right: auto;
  
 }
 
-.input-email-box:hover,
-.input-email-box:focus{
+.input-email:hover{
 border: 2px solid #2196F3;
 border-radius: 4px;
 cursor: pointer;
 }
 
 .input-email:focus{
-outline: transparent;
-
-}
-.input-email:hover{
-  outline: transparent;
-  cursor: pointer;
-  
-  }
-
-.input-email:hover  .input-email-box{
+outline: none;
 border: 2px solid #2196F3;
 border-radius: 4px;
 
 }
 
-.input-email:focus  .input-email-box{
-border: 2px solid #2196F3;
-border-radius: 4px;
-
-}
-.input-email:placeholder-shown  .input-email-box{
-border: 2px solid #2196F3;
-border-radius: 4px;
-
-}
-
-.input-email:focus-visible  .input-email-box{
-border: 2px solid #2196F3;
-border-radius: 4px;
-
-}
-
-.input-email-box:hover  .input-email-icon{
+.input-email:hover ~ .input-email-icon{
   fill: #2196f3;
   
   }
 
-.input-email:focus  .input-email-icon{
+.input-email:focus ~ .input-email-icon{
 fill: #2196f3;
 
 }
@@ -2179,35 +2121,17 @@ fill: #2196f3;
   position: relative; 
   width: 448px;
   height: 120px;
-  border: 2px solid rgba(33, 33, 33, 0.2);
-  border-radius: 4px;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.input-coment-box:focus-within  .input-coment-placeholder{
-  scale: 0;
-  color: transparent;
+  
 }
 
+
 .textarea-coment{
-  padding: 12px 20px;
+  /* padding: 12px 20px; */
   width: 100%;
   height:100%;
   resize:none;
-  outline: transparent;
-  border: transparent;
-
-  /* font-weight: 400;
-  font-size: 12px;
-  line-height: 14px;
-  letter-spacing: 0.01em;
-
-color: rgba(117, 117, 117, 0.5); */
-
-  
-  
-
-}
-.textarea-coment::placeholder{
+  border: 2px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
   
   font-weight: 400;
   font-size: 12px;
@@ -2215,7 +2139,8 @@ color: rgba(117, 117, 117, 0.5); */
   letter-spacing: 0.01em;
 
   color: rgba(117, 117, 117, 0.5);
-}
+
+  }
 
 .input-coment-placeholder{
   position: absolute;
@@ -2234,9 +2159,18 @@ color: rgba(117, 117, 117, 0.5); */
   transition: scale 250ms cubic-bezier(0.4 0 0.2 1);
 
 }
-.input-coment-icon{
-
+.textarea-coment:hover ~ .input-coment-placeholder{
+  scale: 0;
+  }
+.textarea-coment:focus ~ .input-coment-placeholder{
+scale: 0;
 }
+
+.textarea-coment:focus-visible ~ .input-coment-placeholder{
+  scale: 0;
+  }
+
+
 .input-coment-title{
   position: absolute;
   top: 0;
@@ -2252,57 +2186,22 @@ color: rgba(117, 117, 117, 0.5); */
 
   color: #757575;
 }
-.textarea-coment:hover{
-  cursor: pointer;
-  outline: transparent;
-  border: transparent;
-}
 
-.input-coment-box:hover,
-.input-coment-box:focus{
+
+.textarea-coment:hover{
 border: 2px solid #2196F3;
 border-radius: 4px;
 cursor: pointer;
 }
 
 .textarea-coment:focus{
-outline: transparent;
-
-}
-.textarea-coment:hover{
-  outline: transparent;
-  cursor: pointer;
-  
-  }
-
-.textarea-coment:hover  .input-coment-box{
+outline:none;
 border: 2px solid #2196F3;
 border-radius: 4px;
 
 }
 
-.textarea-coment:focus  .input-coment-box{
-border: 2px solid #2196F3;
-border-radius: 4px;
 
-}
-
-.textarea-coment:not(:placeholder-shown)  .input-coment-placeholder{
-  scale: 0;
-  
-  }
-
-.textarea-coment:focus-visible  .input-coment-box{
-border: 2px solid #2196F3;
-border-radius: 4px;
-
-
-}
-
-.input-coment-box:focus +.input-coment-icon{
-
-fill: #2196f3;    
-}
 
 
 /* //////////////////////////////////////////////// */
@@ -2323,6 +2222,7 @@ fill: #2196f3;
   font-size: 14px;
   line-height: 24px;
   /* identical to box height, or 171% */
+  text-decoration: none;
   
   letter-spacing: 0.03em;
   

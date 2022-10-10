@@ -1902,8 +1902,18 @@ margin-right: auto;
    
    }
   
- .input-name:focus  .input-name-icon{
+ .input-name:focus  .input-name-icon__box{
+  border: 1px solid yellow;
+  fill: #2196f3;    
+ }
 
+ .input-name-box:focus  .input-name-icon{
+  border: 1px solid tomato;
+  fill: #2196f3;    
+ }
+
+ .input-name-icon__box:focus  .input-name-icon{
+  border: 1px solid green;
   fill: #2196f3;    
  }
 
@@ -1946,6 +1956,7 @@ margin-right: auto;
     height: 100%;
     /* background-color: yellow;
     border-radius: 50%; */
+    
 
        }
 
@@ -1978,61 +1989,38 @@ margin-right: auto;
 
 }
 
-  .input-tel-box:hover,
+  .input-tel-box:hover{
+    border: 2px solid #2196F3;
+    border-radius: 4px;
+    cursor: pointer;
+    
+  }
+
   .input-tel-box:focus{
     border: 2px solid #2196F3;
     border-radius: 4px;
     cursor: pointer;
+    
   }
-
+  
 .input-tel:focus{
     outline: transparent;
  
   }
 
-  .input-tel:hover{
-    outline: transparent;
-    cursor: pointer;
-    
+  .input-tel:focus   .input-tel-box{
+  border: 2px solid #2196F3;
+  border-radius: 4px;
+  
   }
  
- .input-tel:hover  .input-tel-box{
-  border: 2px solid #2196F3;
-  border-radius: 4px;
- 
- }
-
- .input-tel:focus  .input-tel-box{
-  border: 2px solid #2196F3;
-  border-radius: 4px;
- 
- }
- .input-tel:placeholder-shown  .input-tel-box{
-  border: 2px solid #2196F3;
-  border-radius: 4px;
- 
- }
-
- .input-tel:focus-visible  .input-tel-box{
-  border: 2px solid #2196F3;
-  border-radius: 4px;
- 
- }
- 
-.input-tel:focus  .input-tel-icon{
-fill: #2196f3;    
-
-}
-
 .input-tel-box:hover  .input-tel-icon{
   fill: #2196f3;    
   
   }
 
 .input-tel-icon__size{
-  /* border: 1px solid red;
-  border-radius: 50%; */
-
+ 
   width: 18px;
   height: 18px;
 
@@ -2048,13 +2036,13 @@ fill: #2196f3;
   
   width: 100%;
   height: 100%;
-  /* background-color: yellow;
-  border-radius: 50%; */
+  border: 1px solid green;
 
   }
 .input-tel-icon{
     width: 18px;
     height: 18px;
+    
    
 }
 

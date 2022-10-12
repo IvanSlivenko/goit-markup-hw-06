@@ -1255,12 +1255,10 @@ margin-right:90px;
   letter-spacing: 0.03em;
 
  margin-top: 0px;
- margin-bottom: 20px;
-  
-
-
-
+ 
 }
+
+
 .title-Pages-galery{
  
   
@@ -1602,12 +1600,14 @@ color:var(--color-background-oun);
 .block-footerGalery{
   background: var(--color-hero-bagraund);
 
-  
-
   display: flex;
   flex-direction: column;
 
 }
+.nav-logo-leftgalery--footer{
+  margin-bottom: 20px;
+}
+
 .footer-galery{
   background: var(--color-hero-bagraund);
   padding-top: 60px;
@@ -2229,27 +2229,44 @@ border-radius: 4px;
 
 }
 
-
-
-
 /* //////////////////////////////////////////////// */
 .input-checkbox-box{
   position: relative;
   margin-top: 20px;
 
 }
-.input-checkbox-box:focus  .input-checkbox-icon{
-  fill: #2196f3;
-}
-.input-checkbox{
-  appearance: none;
 
+.input-checkbox{
+  
+  width:16px ;
+  height:16px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translateY(4px)  translateX(-396px);
+
+ 
+ }
+ .input-checkbox-icon{
+  width:16px ;
+  height:16px;
+
+  /* background-image: url(../img/chekbox-ofert.svg);
+  background-size: contain;
+  background-repeat: no-repeat; */
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateX(-20px)  translateY(4px);
+  pointer-events: none;
+  
 }
 .checkbox-ofert-text{
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-  /* identical to box height, or 171% */
+  
   text-decoration: none;
   
   letter-spacing: 0.03em;
@@ -2261,22 +2278,8 @@ border-radius: 4px;
   color: rgba(33, 150, 243, 1);
 
 }
-.input-checkbox-icon{
-  width:16px ;
-  height: 15px;
 
-  background-image: url(../img/chekbox-ofert.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-
-  position: absolute;
-  transform: translateX(-20px)  translateY(3px);
-
-  top: 0;
-  left: 0;
-
-}
-.input-checkbox-icon:hover{
+.input-checkbox:hover{
   cursor: pointer;
 
 }
@@ -2362,6 +2365,7 @@ border-radius: 4px;
   align-items: center;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+  padding-left: 16px;
 }
 
 

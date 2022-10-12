@@ -2255,7 +2255,7 @@ border-radius: 4px;
   left: 0;
   transform: translateX(-19px)  translateY(4px);
   pointer-events: none;
-  fill: orange;
+  
  }
  .input-checkbox-icon{
   width:16px ;

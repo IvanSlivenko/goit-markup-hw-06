@@ -2251,6 +2251,7 @@ border-radius: 4px;
   width:17px ;
   height:16px;
  /* background-color: yellow; */
+  fill: orange;
   /* background-image: url(../img/chekbox-ofert.svg);
   background-size: contain;
   background-repeat: no-repeat; */
@@ -2260,6 +2261,7 @@ border-radius: 4px;
   left: 0;
   transform: translateX(-19px)  translateY(4px);
   pointer-events: none;
+  
   
 }
 .checkbox-ofert-text{

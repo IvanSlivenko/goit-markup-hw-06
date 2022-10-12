@@ -1882,12 +1882,20 @@ margin-right: auto;
     
    }
      
-  .input-name:hover   .input-name-icon{
+  /* .input-name:hover   .input-name-icon{
     fill: #2196f3;    
  }
 
  .input-name:focus   .input-name-icon{
   fill: #2196f3;    
+} */
+
+.input-name:hover  + .input-name-icon__size{
+  fill: #2196f3;    
+}
+
+.input-name:focus + .input-name-icon__size{
+fill: #2196f3;    
 }
 
 
@@ -1979,7 +1987,7 @@ margin-right: auto;
   }
  
 
-  .input-tel:hover   .input-tel-icon{
+  /* .input-tel:hover   .input-tel-icon{
   fill: #2196f3;  
     
   
@@ -1988,7 +1996,17 @@ margin-right: auto;
   .input-tel:focus   .input-tel-icon{
     fill: #2196f3; 
    
-  }
+  } */
+  .input-tel:hover  + .input-tel-icon__size{
+    fill: #2196f3;  
+      
+    
+    }
+  
+    .input-tel:focus  + .input-tel-icon__size{
+      fill: #2196f3; 
+     
+    }
 
 
 .input-tel-icon__size{
@@ -2107,12 +2125,22 @@ border-radius: 4px;
 
 }
 
-.input-email:hover   .input-email-icon{
+/* .input-email:hover   .input-email-icon{
   fill: #2196f3;
   
 }
 
 .input-email:focus   .input-email-icon{
+fill: #2196f3;
+
+} */
+
+.input-email:hover  + .input-email-icon__size{
+  fill: #2196f3;
+  
+}
+
+.input-email:focus  + .input-email-ico__size{
 fill: #2196f3;
 
 }

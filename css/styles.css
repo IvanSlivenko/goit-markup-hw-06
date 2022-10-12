@@ -2107,12 +2107,12 @@ border-radius: 4px;
 
 }
 
-.input-email:hover   ~.input-email-icon{
+.input-email:hover   .input-email-icon{
   fill: #2196f3;
   
 }
 
-.input-email:focus   ~.input-email-icon{
+.input-email:focus   .input-email-icon{
 fill: #2196f3;
 
 }
@@ -2399,6 +2399,7 @@ border-radius: 4px;
 .regisration-icon__icontelegram{
   width: 24px;
   height: 24px;
+  fill: #ffffff;
 
 }
 

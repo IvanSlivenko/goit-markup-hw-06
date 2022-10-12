@@ -2247,22 +2247,21 @@ border-radius: 4px;
 
  
  }
- .input-checkbox-icon{
-  width:18px ;
-  height:18px;
- /* background-color: yellow; */
-  fill: orange;
-  /* background-image: url(../img/chekbox-ofert.svg);
-  background-size: contain;
-  background-repeat: no-repeat; */
-
+ .input-checkbox-box__size{
+  width: 16px;
+  height: 15px;
   position: absolute;
   top: 0;
   left: 0;
   transform: translateX(-19px)  translateY(4px);
   pointer-events: none;
-  
-  
+  fill: orange;
+ }
+ .input-checkbox-icon{
+  width:16px ;
+  height:15px;
+ /* background-color: yellow; */
+ 
 }
 .checkbox-ofert-text{
   font-weight: 400;

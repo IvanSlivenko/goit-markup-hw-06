@@ -2253,7 +2253,7 @@ border-radius: 4px;
   position: absolute;
   top: 0;
   left: 0;
-  transform: translateX(-19px)  translateY(4px);
+  transform: translateX(-20px)  translateY(3px);
   pointer-events: none;
   
  }

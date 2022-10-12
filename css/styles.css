@@ -2238,8 +2238,8 @@ border-radius: 4px;
 
 .input-checkbox{
   
-  width:17px ;
-  height:16px;
+  width:16px ;
+  height:15px;
   position: absolute;
   top: 0;
   right: 0;
@@ -2248,8 +2248,8 @@ border-radius: 4px;
  
  }
  .input-checkbox-icon{
-  width:17px ;
-  height:16px;
+  width:16px ;
+  height:15px;
  /* background-color: yellow; */
   fill: orange;
   /* background-image: url(../img/chekbox-ofert.svg);

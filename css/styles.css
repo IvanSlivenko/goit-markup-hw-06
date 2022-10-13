@@ -2258,8 +2258,10 @@ border-radius: 4px;
   
  }
  .input-checkbox-icon{
-  width:18px;
-  height:17px;
+  /* width:18px; */
+  /* height:17px; */
+  min-width: 18px;
+  min-height: 17px;
  /* background-color: yellow; */ 
   position: absolute;
   top: 0;

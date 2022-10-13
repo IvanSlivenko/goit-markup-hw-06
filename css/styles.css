@@ -2243,6 +2243,7 @@ border-radius: 4px;
   position: absolute;
   top: 0;
   right: 0;
+  border: transparent;
   transform: translateY(5px)  translateX(-395px);
 
  

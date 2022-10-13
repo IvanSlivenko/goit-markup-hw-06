@@ -2268,7 +2268,7 @@ border-radius: 4px;
   position: absolute;
   top: 0;
   left: 0;
-  transform: translateX(-20px)  translateY(4px);
+  transform: translateX(-20px)  translateY(4.5px);
   pointer-events: none;
  
 }

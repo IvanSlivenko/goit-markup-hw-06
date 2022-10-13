@@ -2258,13 +2258,13 @@ border-radius: 4px;
   
  }
  .input-checkbox-icon{
-  width:100% ;
-  height:100%;
+  width:18px;
+  height:17px;
  /* background-color: yellow; */ 
   position: absolute;
   top: 0;
   left: 0;
-  transform: translateX(-20px)  translateY(3px);
+  transform: translateX(20px)  translateY(3px);
   pointer-events: none;
  
 }
